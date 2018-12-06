@@ -1,0 +1,37 @@
+import:
+- package: github.com/gorilla/schema
+  version: 0164a00ab4cd01d814d8cd5bf63fd9fcea30e23b
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+  version: 6a1fa9404c0aebf36c879bc50152edcc953910d2
+- package: golang.org/x/net
+  subpackages:
+  - context
+  version: f01ecb60fe3835d80d9a0b7b2bf24b228c89260e
+- package: google.golang.org/appengine
+  subpackages:
+  - internal/app_identity
+  - internal/modules
+  - internal
+  - internal/memcache
+  - internal/base
+  - internal/remote_api
+  - internal/log
+  - log
+  - internal/user
+  - ''
+  - memcache
+  - user
+  - datastore
+  - internal/datastore
+  version: e28c86efa2d943e8797312b85dfc512722e69b2d
+- package: gopkg.in/vmihailenco/msgpack.v2
+  subpackages:
+  - codes
+  - ''
+  version: 94af6ea04d2da6a09d6914ca79b8fb94f3acbba4
+- package: github.com/mjibson/appstats
+  version: 0542d5f0e87ea3a8fa4174322b9532f5d04f9fa8
+package: github.com/emicklei/go-restful
+
